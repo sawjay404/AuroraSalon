@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@theme {
+  --color-wedding-purple: #4a154b;
+  --color-wedding-gold: #c5a065;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-script: "Pinyon Script", cursive;
+}
+html {
+  scroll-behavior: smooth !important;
+}
