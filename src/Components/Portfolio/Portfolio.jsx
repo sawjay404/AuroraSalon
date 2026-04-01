@@ -31,7 +31,7 @@ const Portfolio = () => {
   const bannerImgY = useTransform(smoothProgress, [0, 0.4], ["0%", "15%"]);
 
   const items = [
-    { id: 1, url: 'https://images.pexels.com/photos/3319333/pexels-photo-3319333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', category: 'Platinum', title: 'Nordic Ice' },
+    { id: 1, url: '/Image2.jpg', category: 'Platinum', title: 'Nordic Ice' },
     { id: 2, url: 'https://images.pexels.com/photos/3746226/pexels-photo-3746226.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', category: 'Color', title: 'Sunset Copper' },
     { id: 3, url: 'https://images.pexels.com/photos/705255/pexels-photo-705255.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', category: 'Studio', title: 'The Lounge' },
     { id: 4, url: 'https://images.pexels.com/photos/973401/pexels-photo-973401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', category: 'Balayage', title: 'Aurora Blend' },
